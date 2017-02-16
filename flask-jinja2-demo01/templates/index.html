@@ -1,0 +1,18 @@
+<!--Created by zcdll on 2017/2/15 23:08.-->
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Flask-Jinja2-Demo01</title>
+</head>
+<body>
+<h1>{{ title }}</h1>
+
+<nav>
+    <a href="{{ url_for('.services') }}">Services</a>
+    <a href="{{ url_for('.about') }}">About</a>
+</nav>
+
+</body>
+</html>
